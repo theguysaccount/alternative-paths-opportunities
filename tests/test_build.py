@@ -44,6 +44,14 @@ class Build(unittest.TestCase):
                 self.assertIn(html.escape(ev["quote"]), page)
             self.assertIn('class="correction"', page)
 
+    def test_unread_sources_are_flagged(self):
+        # Whatever the current state: a program page says so exactly when a page it quotes could not be read.
+        st = S.state()
+        for p in S.apps():
+            statuses = [st["docs"].get(f"{p['slug']}/{ev['doc']}", {}).get("status") for _w, _f, ev in S.evidence(p)]
+            unread = any(s and s != "ok" for s in statuses)
+            self.assertEqual("could not read" in self.page(f"programs/{p['slug']}/index.html"), unread, p["slug"])
+
     def test_every_listing_is_shown_with_its_source(self):
         p = self.page("washington/index.html")
         self.assertIn(f'data-count="{len(self.ctx.listings)}"', p)

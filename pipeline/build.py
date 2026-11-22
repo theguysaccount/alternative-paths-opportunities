@@ -119,7 +119,9 @@ class Ctx:
             facts.append({"id": fid, "summary": f["summary"], "evidence": evs})
         used = {e["doc"]["id"] for f in facts for e in f["evidence"]}
         asof = min((docs[d]["last_ok"] or p["reviewed"]) for d in used) if used else p["reviewed"]
-        return dict(p, docs=docs, fact_list=facts, asof=asof, missing=sum(1 for f in facts for e in f["evidence"] if not e["found"]))
+        unread = [docs[d] for d in sorted(used) if docs[d]["status"] and docs[d]["status"] != "ok"]
+        return dict(p, docs=docs, fact_list=facts, asof=asof, unread=unread,
+                    missing=sum(1 for f in facts for e in f["evidence"] if not e["found"]))
 
 
 # ---------------------------------------------------------------------------------------------
@@ -325,8 +327,13 @@ def page_program(ctx, p):
            "datePublished": p["reviewed"], "dateModified": p["asof"], "mainEntityOfPage": ctx.url(path),
            "author": {"@type": "Organization", "name": BRAND, "url": ctx.url("")},
            "about": {"@type": "Organization", "name": p["agency"]}}]
-    flag = ('<div class="flag" role="status"><p>Some quoted text was not found in the latest version of the official page; this page is waiting for re-review.</p></div>'
-            if p["missing"] else "")
+    notes = []
+    if p["missing"]:
+        notes.append("<p>Some quoted text was not found in the latest version of the official page; this page is waiting for re-review.</p>")
+    if p["unread"]:
+        notes.append(f"<p>The latest weekly check could not read: {E(', '.join(d['title'] for d in p['unread']))}. "
+                     "The quotes shown are from the last good read, with its date.</p>")
+    flag = f'<div class="flag" role="status">{"".join(notes)}</div>' if notes else ""
     body = f"""<nav class="crumbs" aria-label="Breadcrumb"><a href="{pre}">Home</a> › {E(p['name'])}</nav>
 <h1>{E(p['name'])}</h1>
 <p class="lede">{E(p['agency'])} · {E(p['kind'])}</p>
