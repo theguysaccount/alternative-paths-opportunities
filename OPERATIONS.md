@@ -15,7 +15,7 @@ Alternative Paths runs itself on GitHub: Pages for hosting, Actions for every re
 | Self-test | `selftest.yml` | Fridays 15:53 | Tests, live browser check, every sitemap URL, feed, open data; Washington data older than 3 days starts a refresh, older than 10 days fails | One `ops-alert` issue; GitHub emails the owner. |
 | Keep-alive | in `refresh.yml`, `check.yml`, `selftest.yml` | every run | Re-enables scheduled workflows; empty commit after 45 quiet days | |
 
-Temporary lines: `refresh.yml` and `selftest.yml` each carry one cron line marked `TEMPORARY` that fires only on 22-23 November; delete them once a scheduled run has passed.
+Schedule check at launch: on 22 Nov 2026 the weekly self-test and the listings refresh each ran on their own schedule and passed (first runs at 17:15 and 19:26 UTC). The temporary cron lines that made them fire early were then removed.
 
 ## What to watch
 
