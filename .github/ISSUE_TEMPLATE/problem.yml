@@ -1,0 +1,28 @@
+name: Report a problem
+description: A listing or program page looks wrong, out of date, or charges job seekers
+title: "Problem: "
+labels: ["problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Washington listings come straight from the state's official register; program pages quote each program's own site.
+        **This issue is public.** Please don't include personal contact details.
+  - type: input
+    id: page
+    attributes:
+      label: Page or listing
+      description: Link to the page, or the program and occupation name
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: For example, the program closed, the wage changed, or a listed program charges fees
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source showing the correct information (optional)

@@ -1,0 +1,67 @@
+{
+ "slug": "us-digital-corps",
+ "name": "U.S. Digital Corps",
+ "agency": "U.S. General Services Administration",
+ "kind": "Paid fellowship",
+ "status": "closed",
+ "status_label": "Not accepting applications now",
+ "link": "https://digitalcorps.gsa.gov/apply/",
+ "link_label": "Get notified on digitalcorps.gsa.gov",
+ "reviewed": "2026-11-22",
+ "documents": {
+  "home": {
+   "title": "U.S. Digital Corps",
+   "url": "https://digitalcorps.gsa.gov/"
+  },
+  "faq": {
+   "title": "U.S. Digital Corps FAQ",
+   "url": "https://digitalcorps.gsa.gov/faq/"
+  },
+  "apply": {
+   "title": "Apply to the U.S. Digital Corps",
+   "url": "https://digitalcorps.gsa.gov/apply/"
+  }
+ },
+ "facts": {
+  "what": {
+   "summary": "A two-year federal fellowship for early-career technologists.",
+   "evidence": [
+    {
+     "doc": "home",
+     "quote": "The U.S. Digital Corps is a two‑year fellowship for early‑career technologists"
+    }
+   ]
+  },
+  "pay": {
+   "summary": "Fellows are paid a federal salary that varies with work location.",
+   "evidence": [
+    {
+     "doc": "faq",
+     "quote": "Yes, Fellows’ salary will vary depending on work location according to the Office of Personnel Management’s locality pay tables."
+    }
+   ]
+  },
+  "who": {
+   "summary": "Applicants need a certificate or degree from an accredited college, school or qualifying career or technical program; students can apply before they graduate.",
+   "evidence": [
+    {
+     "doc": "faq",
+     "quote": "The U.S. Digital Corps can only accept certificates and degrees from accredited colleges, universities, schools, or institutions."
+    },
+    {
+     "doc": "faq",
+     "quote": "Yes, current students are eligible to apply in advance of their expected graduation or completion date as long as they meet the program eligibility criteria."
+    }
+   ]
+  },
+  "status": {
+   "summary": "The application page invites people to subscribe to hear when future applications open.",
+   "evidence": [
+    {
+     "doc": "apply",
+     "quote": "Subscribe to our newsletter to get notified when future applications open, as well as for upcoming news, updates, and events."
+    }
+   ]
+  }
+ }
+}

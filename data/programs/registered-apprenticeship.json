@@ -1,0 +1,50 @@
+{
+ "slug": "registered-apprenticeship",
+ "name": "Registered Apprenticeship",
+ "agency": "U.S. Department of Labor",
+ "kind": "Paid while you learn",
+ "status": "open",
+ "status_label": "Openings posted by employers year-round",
+ "link": "https://www.apprenticeship.gov/apprenticeship-job-finder",
+ "link_label": "Search openings on apprenticeship.gov",
+ "reviewed": "2026-11-22",
+ "documents": {
+  "seekers": {
+   "title": "Apprenticeship for career seekers (apprenticeship.gov)",
+   "url": "https://www.apprenticeship.gov/career-seekers"
+  }
+ },
+ "facts": {
+  "pay": {
+   "summary": "Apprentices are paid from the first day, with wage increases as their skills grow.",
+   "evidence": [
+    {
+     "doc": "seekers",
+     "quote": "Earn a competitive wage from day one"
+    },
+    {
+     "doc": "seekers",
+     "quote": "Earn as you learn with a guaranteed wage increase as you develop new skills"
+    }
+   ]
+  },
+  "what": {
+   "summary": "Paid work with a mentor, classroom instruction and a nationally recognized credential.",
+   "evidence": [
+    {
+     "doc": "seekers",
+     "quote": "Registered Apprenticeship is an industry-driven, high-quality career pathway where employers can develop and prepare their future workforce, and individuals can obtain paid work experience with a mentor, receive progressive wage increases, classroom instruction, and a portable, nationally-recognized credential."
+    }
+   ]
+  },
+  "apply": {
+   "summary": "Search the Apprenticeship Job Finder and apply directly to the employer or program sponsor.",
+   "evidence": [
+    {
+     "doc": "seekers",
+     "quote": "To become an apprentice, search for an opportunity using our Apprenticeship Job Finder and apply directly with the employer or the program sponsor."
+    }
+   ]
+  }
+ }
+}

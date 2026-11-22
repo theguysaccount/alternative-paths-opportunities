@@ -1,0 +1,218 @@
+{
+ "checked": "2026-11-22T09:09:30Z",
+ "docs": {
+  "americorps/asn": {
+   "archive_url": "https://web.archive.org/web/20260630122352/https://americorps.gov/serve/americorps/americorps-state-national",
+   "capture": "20260630122352",
+   "checked": "2026-11-22T09:09:01Z",
+   "error": "",
+   "last_ok": "2026-06-30T12:23:52Z",
+   "note": "the host does not show robots.txt to automated readers",
+   "status": "ok",
+   "url": "https://americorps.gov/serve/americorps/americorps-state-national",
+   "via": "wayback",
+   "words": 709
+  },
+  "job-corps/faq": {
+   "archive_url": "",
+   "capture": "",
+   "checked": "2026-11-22T09:09:18Z",
+   "error": "",
+   "last_ok": "2026-11-22T09:09:18Z",
+   "note": "",
+   "status": "ok",
+   "url": "https://www.jobcorps.gov/faqs",
+   "via": "direct",
+   "words": 4457
+  },
+  "job-corps/home": {
+   "archive_url": "",
+   "capture": "",
+   "checked": "2026-11-22T09:09:16Z",
+   "error": "",
+   "last_ok": "2026-11-22T09:09:16Z",
+   "note": "",
+   "status": "ok",
+   "url": "https://www.jobcorps.gov/",
+   "via": "direct",
+   "words": 283
+  },
+  "rapid-response/layoffs": {
+   "archive_url": "",
+   "capture": "",
+   "checked": "2026-11-22T09:09:20Z",
+   "error": "",
+   "last_ok": "2026-11-22T09:09:20Z",
+   "note": "",
+   "status": "ok",
+   "url": "https://www.dol.gov/agencies/eta/layoffs",
+   "via": "direct",
+   "words": 554
+  },
+  "registered-apprenticeship/seekers": {
+   "archive_url": "",
+   "capture": "",
+   "checked": "2026-11-22T09:09:22Z",
+   "error": "",
+   "last_ok": "2026-11-22T09:09:22Z",
+   "note": "",
+   "status": "ok",
+   "url": "https://www.apprenticeship.gov/career-seekers",
+   "via": "direct",
+   "words": 497
+  },
+  "us-digital-corps/apply": {
+   "archive_url": "",
+   "capture": "",
+   "checked": "2026-11-22T09:09:28Z",
+   "error": "",
+   "last_ok": "2026-11-22T09:09:28Z",
+   "note": "",
+   "status": "ok",
+   "url": "https://digitalcorps.gsa.gov/apply/",
+   "via": "direct",
+   "words": 166
+  },
+  "us-digital-corps/faq": {
+   "archive_url": "",
+   "capture": "",
+   "checked": "2026-11-22T09:09:26Z",
+   "error": "",
+   "last_ok": "2026-11-22T09:09:26Z",
+   "note": "",
+   "status": "ok",
+   "url": "https://digitalcorps.gsa.gov/faq/",
+   "via": "direct",
+   "words": 897
+  },
+  "us-digital-corps/home": {
+   "archive_url": "",
+   "capture": "",
+   "checked": "2026-11-22T09:09:24Z",
+   "error": "",
+   "last_ok": "2026-11-22T09:09:24Z",
+   "note": "",
+   "status": "ok",
+   "url": "https://digitalcorps.gsa.gov/",
+   "via": "direct",
+   "words": 460
+  }
+ },
+ "last_run_ok": "2026-11-22T09:09:30Z",
+ "quotes": {
+  "0da3083c3777f1": {
+   "app": "americorps",
+   "doc": "asn",
+   "found": true,
+   "last_found": "2026-06-30"
+  },
+  "0f60494993293d": {
+   "app": "registered-apprenticeship",
+   "doc": "seekers",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "35e254251f4a64": {
+   "app": "us-digital-corps",
+   "doc": "home",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "439ea90a2c0adc": {
+   "app": "job-corps",
+   "doc": "faq",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "44c4416489a456": {
+   "app": "us-digital-corps",
+   "doc": "faq",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "4f76be870dd591": {
+   "app": "us-digital-corps",
+   "doc": "faq",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "51a7af4613fc3d": {
+   "app": "job-corps",
+   "doc": "faq",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "5a5e657d6a31da": {
+   "app": "job-corps",
+   "doc": "home",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "63ad3b20197f2c": {
+   "app": "registered-apprenticeship",
+   "doc": "seekers",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "6c804ff48f1a78": {
+   "app": "registered-apprenticeship",
+   "doc": "seekers",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "7e46ced6a3eeaf": {
+   "app": "job-corps",
+   "doc": "faq",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "98e54d926c2f0e": {
+   "app": "rapid-response",
+   "doc": "layoffs",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "a21353c750bfe6": {
+   "app": "us-digital-corps",
+   "doc": "apply",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "a8bb14100dea19": {
+   "app": "registered-apprenticeship",
+   "doc": "seekers",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "ab625eb7ee93ad": {
+   "app": "americorps",
+   "doc": "asn",
+   "found": true,
+   "last_found": "2026-06-30"
+  },
+  "c4c5d74c24a082": {
+   "app": "job-corps",
+   "doc": "faq",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "e144830d9dd14d": {
+   "app": "rapid-response",
+   "doc": "layoffs",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "e19c0980221450": {
+   "app": "us-digital-corps",
+   "doc": "faq",
+   "found": true,
+   "last_found": "2026-11-22"
+  },
+  "e6b63cbbc952a4": {
+   "app": "americorps",
+   "doc": "asn",
+   "found": true,
+   "last_found": "2026-06-30"
+  }
+ }
+}

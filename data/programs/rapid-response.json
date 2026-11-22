@@ -1,0 +1,32 @@
+{
+ "slug": "rapid-response",
+ "name": "Rapid Response and American Job Centers",
+ "agency": "U.S. Department of Labor and state workforce agencies",
+ "kind": "Help after a layoff",
+ "status": "open",
+ "status_label": "Available through state and local agencies",
+ "link": "https://www.dol.gov/agencies/eta/layoffs",
+ "link_label": "Layoff help on dol.gov",
+ "reviewed": "2026-11-22",
+ "documents": {
+  "layoffs": {
+   "title": "Layoffs: help for workers and employers (U.S. Department of Labor)",
+   "url": "https://www.dol.gov/agencies/eta/layoffs"
+  }
+ },
+ "facts": {
+  "what": {
+   "summary": "For workers who have been laid off: direct services, benefits, training opportunities and income support, through state and local agencies and American Job Centers.",
+   "evidence": [
+    {
+     "doc": "layoffs",
+     "quote": "Rapid Response for Laid-Off Workers who have been displaced. Access a comprehensive range of direct services, benefits, training opportunities, and income support."
+    },
+    {
+     "doc": "layoffs",
+     "quote": "Many services, from are available through American Job Centers, from resume and interview workshops, career counseling, and job search to re-skilling, skills upgrading, and job training."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "job-corps",
+ "name": "Job Corps",
+ "agency": "U.S. Department of Labor",
+ "kind": "Paid while you learn",
+ "status": "open",
+ "status_label": "Applications accepted year-round",
+ "link": "https://www.jobcorps.gov/",
+ "link_label": "Apply on jobcorps.gov",
+ "reviewed": "2026-11-22",
+ "documents": {
+  "home": {
+   "title": "Job Corps",
+   "url": "https://www.jobcorps.gov/"
+  },
+  "faq": {
+   "title": "Job Corps FAQs",
+   "url": "https://www.jobcorps.gov/faqs"
+  }
+ },
+ "facts": {
+  "what": {
+   "summary": "Free, residential career training and education for low-income young adults aged 16 through 24.",
+   "evidence": [
+    {
+     "doc": "home",
+     "quote": "Job Corps is the nation’s largest free, residential career training and education program for low-income young adults ages 16 through 24."
+    }
+   ]
+  },
+  "pay": {
+   "summary": "Students receive a living allowance every two weeks that rises as training progresses, and pay nothing for the program.",
+   "evidence": [
+    {
+     "doc": "faq",
+     "quote": "Throughout your training, you will receive a biweekly basic living allowance. As your training progresses, your living allowance will increase."
+    },
+    {
+     "doc": "faq",
+     "quote": "Job Corps is always FREE for students. The program is fully funded by the federal government."
+    }
+   ]
+  },
+  "who": {
+   "summary": "Generally low-income 16- through 24-year-olds who are U.S. citizens, legal residents, residents of a U.S. territory or authorized to work in the United States.",
+   "evidence": [
+    {
+     "doc": "faq",
+     "quote": "Generally, Job Corps students are low-income 16- through 24-year-olds who are U.S. citizens, legal U.S. residents or residents of a U.S. territory, and/or individuals who are authorized to work in the United States."
+    }
+   ]
+  },
+  "apply": {
+   "summary": "Start by creating a MyJobCorps account.",
+   "evidence": [
+    {
+     "doc": "faq",
+     "quote": "The first step in applying to Job Corps is creating a MyJobCorps account."
+    }
+   ]
+  }
+ }
+}

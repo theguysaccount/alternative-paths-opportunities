@@ -1,0 +1,41 @@
+{
+ "slug": "americorps",
+ "name": "AmeriCorps State and National",
+ "agency": "AmeriCorps",
+ "kind": "Paid while you serve",
+ "status": "open",
+ "status_label": "Positions posted by programs year-round",
+ "link": "https://americorps.gov/serve/americorps/americorps-state-national",
+ "link_label": "See how to apply on americorps.gov",
+ "reviewed": "2026-11-22",
+ "documents": {
+  "asn": {
+   "title": "AmeriCorps State and National",
+   "url": "https://americorps.gov/serve/americorps/americorps-state-national"
+  }
+ },
+ "facts": {
+  "pay": {
+   "summary": "Most members receive a modest living allowance, plus an education award after completing a term of service.",
+   "evidence": [
+    {
+     "doc": "asn",
+     "quote": "A modest living allowance (available to most members)"
+    },
+    {
+     "doc": "asn",
+     "quote": "AmeriCorps provides education awards, a living allowance, professional development, and more."
+    }
+   ]
+  },
+  "who": {
+   "summary": "Members must be at least 17, with no upper age limit.",
+   "evidence": [
+    {
+     "doc": "asn",
+     "quote": "be 17 years or older (no upper age limit)"
+    }
+   ]
+  }
+ }
+}
